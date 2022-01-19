@@ -84,7 +84,6 @@ header{
     border: 5px solid;
     border-image: linear-gradient(to right, rgba(0,0,0,0), rgb(236, 236, 236,1), rgba(0,0,0,0));
     border-image-slice: 1;
-    border-image-repeat: none;
     padding: 20px;
     margin-right: 3%;
     display: flex;
