@@ -84,6 +84,7 @@ header{
     border: 5px solid;
     border-image: linear-gradient(to right, rgba(0,0,0,0), rgb(236, 236, 236,1), rgba(0,0,0,0));
     border-image-slice: 1;
+    border-image-repeat: none;
     padding: 20px;
     margin-right: 3%;
     display: flex;
@@ -167,16 +168,7 @@ header{
     color: rgba(255, 255, 255, 0.651);
     margin: 0 10px;
 }
-.instagram:hover{
-    color: #fff;
-}
-.dribble:hover{
-    color: #fff;
-}
-.twitter:hover{
-    color: #fff;
-}
-.youtube:hover{
+#social:hover{
     color: #fff;
 }
 /*------------*\
@@ -202,6 +194,9 @@ header{
     .banner{
         flex-direction: column-reverse;
     }
+    .banner-image{
+        margin-left: 0;
+    }
     .banner-details, .join-now-area{
         text-align: center;
     }
@@ -220,14 +215,18 @@ header{
     .collection-thumbnail img, .join-now-thumbnail img{
         width: 100%;
     }
+    .join-now-thumbnail{
+        margin-right: 0;
+    }
     .join-now-title{
         font-size: 24px;
+        line-height: 35px;
     }
     .join-now-info{
         margin-bottom: 30px;
     }
     .footer-title{
-        line-height: 20px;
+        font-size: 20px;
     }
     }
     /* tablet devices */
