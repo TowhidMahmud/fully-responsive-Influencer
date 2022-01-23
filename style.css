@@ -131,6 +131,7 @@ header{
     color: #E02C6D;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 }
 .see-more a:hover .fa-long-arrow-alt-right{
     transform: translateX(25px);
@@ -242,6 +243,9 @@ header{
         }
         .banner{
             flex-direction: column;
+        }
+        .banner-image{
+            margin-left: 0;
         }
         .banner-title{
             font-size: 30px;
